@@ -4,6 +4,7 @@ Tutorial: https://www.youtube.com/watch?v=Xm790AkFeK4
 
 Download (Please download the full version with git for windows): https://cmder.net/
 
+From the new terminal, issue the following command:
 
 ```bash
     ssh -X <userID>@psyclogin02.rhul.ac.uk
