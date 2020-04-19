@@ -2,7 +2,7 @@
 
 - First
 
-Use remote desktop to login to prod .
+Use remote desktop to login to prod-mrirdp01.rhul.ac.uk
 
 
 - Second  (Skip this step if your VNC viewer is already setup. Do this for the first time only.)
