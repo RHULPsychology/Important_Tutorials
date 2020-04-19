@@ -11,9 +11,10 @@
   
 # run downloaded script in Ubuntu shell via
 
- - python /mnt/c/Users/<WindowsUserName>/Downloads/fslinstaller.py
-
-   Say yes to all default install options
+ ```bash
+ python /mnt/c/Users/<WindowsUserName>/Downloads/fslinstaller.py
+```
+Say yes to all default install options
 
 # In ubuntu shell add
 
