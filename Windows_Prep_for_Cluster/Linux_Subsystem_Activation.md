@@ -1,4 +1,4 @@
-# How to Activate Linux on Windows (follow the Informative Tutorial):
+# How to Activate Linux on Windows 10 (follow the Informative Tutorial):
 
 https://helloacm.com/the-ubuntu-sub-system-new-bash-shell-in-windows-10/
 
