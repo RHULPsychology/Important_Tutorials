@@ -2,9 +2,9 @@
 
 - The archive space is located at /MRIArchive. It' folder structure has been organized similarly to the /MRIWork space.
 
-For example:
+  For example:
 
-The data in folder ```/MRIWork/MRIWork10/pv/giusi_pollicina/Old/``` should be compressed and archived in ```/MRIArchive/MRIWork10/pv/giusi_pollicina/Old.tar.gz``` location as a compressed tarball gzip file. Individuals will have writing permissions to their respective archive folders.
+  The data in folder ```/MRIWork/MRIWork10/pv/giusi_pollicina/Old/``` should be compressed and archived in ```/MRIArchive/MRIWork10/pv/giusi_pollicina/Old.tar.gz``` location as a compressed tarball gzip file. Individuals will have writing permissions to their respective archive folders.
 
 
 
@@ -20,10 +20,10 @@ The data in folder ```/MRIWork/MRIWork10/pv/giusi_pollicina/Old/``` should be co
 
 # Uncompress to check if the backup has worked 
 
-- Move to the temp folder
+- Move to the temp folder and create a uncompressed folder
 
 ```bash
-    cd /tmp
+    mkdir -p /tmp/Trail_uncompressed/; cd /tmp/Trail_uncompressed/; 
 ```
 - Then uncompress the gzipped tarball backup.
 
@@ -31,30 +31,36 @@ The data in folder ```/MRIWork/MRIWork10/pv/giusi_pollicina/Old/``` should be co
     tar xvzf /MRIArchive/MRIWork10/pv/giusi_pollicina/Old.tar.gz
 ```
 
-- check the subfolders in ```/tmp/``` to see if you can retrieve your backed up data
+- check the subfolders in ```/tmp/Trail_uncompressed/``` with the ```ls -lla /tmp/Trail_uncompressed/``` command to see if you have successfully retrieved your backed up data.
 
 
 # delete the uncompressed folder
 
 Once you have checked the output, remove the uncomressed folder
 
-
 ```bash
-    rm -r /tmp/
+    rm -r /tmp/Trail_uncompressed/`
 ```
-
+Use ```rm -rf``` if you have to force delete it.
 
 # delete the original folder
 
-- Please do not forget to remove your original folder. It would not work if you delete it from the GUI, it will just go and sit in the Trash. Use ```rm -r``` command for the removal of the directory.
+- Please do not forget to remove your original folder. It would not work if you delete it from the GUI, it will just go and sit in the Trash. Use ```rm -r``` command for the removal of the directory. Be careful, this above process is non-reversible. Please double check if you have got the backup file properly. One simple way to do this is to check the size of the backup file with the `du` command. 
 
 For example:
+
+```bash
+    du -sh /MRIArchive/MRIWork10/pv/giusi_pollicina/Old.tar.gz
+
+```
+
+Once you are confident remove the folder like:
 
 ```bash
     rm -r /MRIWork/MRIWork10/pv/giusi_pollicina/Old/
 ```
 
-Be careful, this above process is non-reversible. Please double check if you have got the backup file properly.
+```
 
 
 
