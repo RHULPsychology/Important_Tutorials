@@ -59,8 +59,3 @@ Once you are confident remove the folder like:
 ```bash
     rm -r /MRIWork/MRIWork10/pv/giusi_pollicina/Old/
 ```
-
-```
-
-
-
