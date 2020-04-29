@@ -34,7 +34,7 @@
 - check the subfolders in ```/tmp/Trail_uncompressed/``` with the ```ls -lla /tmp/Trail_uncompressed/``` command to see if you have successfully retrieved your backed up data.
 
 
-# delete the uncompressed folder
+# Delete the uncompressed folder
 
 Once you have checked the output, remove the uncomressed folder
 
@@ -43,7 +43,7 @@ Once you have checked the output, remove the uncomressed folder
 ```
 Use ```rm -rf``` if you have to force delete it.
 
-# delete the original folder
+# Delete the original folder
 
 - Please do not forget to remove your original folder. It would not work if you delete it from the GUI, it will just go and sit in the Trash. Use ```rm -r``` command for the removal of the directory. Be careful, this above process is non-reversible. Please double check if you have got the backup file properly. One simple way to do this is to check the size of the backup file with the `du` command. 
 
