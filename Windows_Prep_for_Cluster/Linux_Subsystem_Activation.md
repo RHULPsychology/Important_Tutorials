@@ -1,6 +1,16 @@
-# How to Activate Linux on Windows 10 (follow the Informative Tutorial):
+# How to Activate Linux on Windows 10 
 
-https://helloacm.com/the-ubuntu-sub-system-new-bash-shell-in-windows-10/
+Click the start and type in “Turn Windows Features on/off” and hit return. it should give you this dialog.
+
+![Image description](https://github.com/RHULPsychology/Important_Tutorials/blob/master/cluster_arch.jpg)
+
+
+Go to Microsoft App Store and install Ubuntu 18.04 LTS App:
+
+![Image description](https://github.com/RHULPsychology/Important_Tutorials/blob/master/cluster_arch.jpg)
+
+
+Once the Ubuntu App is installed, run the following commands to install the required updates
 
 # Install aptitude:
 
@@ -25,3 +35,10 @@ sudo aptitude upgrade
 ``` bash
 sudo aptitude install dc python mesa-utils gedit pulseaudio libquadmath0
 ```
+
+# Informative Tutorial also available at:
+
+https://helloacm.com/the-ubuntu-sub-system-new-bash-shell-in-windows-10/
+
+
+
