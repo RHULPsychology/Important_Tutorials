@@ -4,10 +4,9 @@ Click the start and type in “Turn Windows Features on/off” and hit return. i
 
 ![Image description](https://github.com/RHULPsychology/Important_Tutorials/blob/master/cluster_arch.jpg)
 
-
 Go to Microsoft App Store and install Ubuntu 18.04 LTS App:
 
-![Image description](https://github.com/RHULPsychology/Important_Tutorials/blob/master/cluster_arch.jpg)
+![Image description](https://github.com/RHULPsychology/Important_Tutorials/Windows_Prep_for_Cluster/store.png )
 
 
 Once the Ubuntu App is installed, run the following commands to install the required updates
