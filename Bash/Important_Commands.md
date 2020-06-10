@@ -65,4 +65,3 @@ https://www.cyberciti.biz/faq/bash-while-loop/
 1. Print your name for 5 times by writing a script.
 
 2. Create directory structure like /mnt/c/subfolder1/subfolder2/subfolder3. Create trial.txt file under subfolder3 and write your name for 5 times into that file by writing a script.
-
