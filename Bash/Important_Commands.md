@@ -14,6 +14,12 @@
 
 7. nano
 
+8. CRTL+R
+
+9. pwd
+
+10. rm
+
 ```
 
 - Conditionals (What is Boolean?): 
