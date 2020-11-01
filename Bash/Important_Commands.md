@@ -1,67 +1,91 @@
-- Essential_commands (Look at --help):
+ - Basic BASH commands:
+  
+    Learn basic Bash Scripting. Please follow tutorials and exercises provided at https://github.com/RHULPsychology/Important_Tutorials/blob/master/Bash/Important_Commands.md.
+   
+   
+    - Essential_commands (Look at --help):
+      
+      Check current path (location):
+      
+      ```bash
+      1. pwd
+      ```
+      Make a new folder(directory) at that path:
+      
+      ```bash
+      2. mkdir (mkdir -p)
+      ```
+      Check the content of a folder(directory):
+      
+      ```bash
+      3. ls (ls -ll)
+      ```
+      Change the directory (navigate):
+      
+      ```bash
+      2. cd
+      ```
+      Print on the command prompt:
 
-```bash
+      ```bash
+      5. echo
+      ```
+      File Editor (create new file and open):
 
-1. ls (ls -ll)
+      ```bash
+      7. nano
+      ```
+      Reverse search of all previous commands:
+      
+      ```bash
+      8. CRTL+R and CRTL+G
+      ```
+      Remove/delete files or folders:
 
-2. cd
+      ```bash
+      10. rm
+      ```
 
-3. mkdir (mkdir -p)
+    - Conditionals (What is Boolean?): 
 
-5. echo
+      Tutorial link: 
 
-6. touch
+      if-else:
+      https://linuxize.com/post/bash-if-else-statement/
 
-7. nano
+      Switch-case: 
+      https://www.thegeekstuff.com/2010/07/bash-case-statement/
 
-8. CRTL+R
+      ```bash
 
-9. pwd
+      1. if
 
-10. rm
+      2. if - else
 
-```
+      3. if - elif - else
 
-- Conditionals (What is Boolean?): 
+      ```
 
-Tutorial link: 
+    - Loop: 
 
-if-else:
-https://linuxize.com/post/bash-if-else-statement/
+      Tutorial link: 
 
-Switch-case: 
-https://www.thegeekstuff.com/2010/07/bash-case-statement/
+      for loop:
+      https://www.cyberciti.biz/faq/bash-for-loop/
 
-```bash
+      while loop: 
+      https://www.cyberciti.biz/faq/bash-while-loop/
 
-1. if
+      ```bash
 
-2. if - else
+      1. break
 
-3. if - elif - else
+      2. continue
 
-```
+      ```
 
-- Loop: 
+    - Exercises (to be done in the lecture): 
 
-Tutorial link: 
+      a. Print your name for 5 times by writing a script.
 
-for loop:
-https://www.cyberciti.biz/faq/bash-for-loop/
-
-while loop: 
-https://www.cyberciti.biz/faq/bash-while-loop/
-
-```bash
-
-1. break
-
-2. continue
-
-```
-
-- Exercises: 
-
-1. Print your name for 5 times by writing a script.
-
-2. Create directory structure like /mnt/c/subfolder1/subfolder2/subfolder3. Create trial.txt file under subfolder3 and write your name for 5 times into that file by writing a script.
+      b. Create directory structure like /mnt/c/subfolder1/subfolder2/subfolder3. Create trial.txt file under subfolder3 and write your name for 5 times into that file by writing a script.
