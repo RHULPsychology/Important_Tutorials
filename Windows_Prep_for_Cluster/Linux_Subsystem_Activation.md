@@ -11,28 +11,23 @@
 
 Once the Ubuntu App is installed, run the following commands to install the required updates
 
-# Install aptitude:
-
-``` bash
-sudo apt-get install aptitude
-```
 
 # Update and Upgrade Ubuntu
 
 Update
 ``` bash
-sudo aptitude update
+sudo apt-get update
 ```
 then upgrade
 
 ``` bash
-sudo aptitude upgrade
+sudo apt-get upgrade
 ```
 
 # Install some important packages
 
 ``` bash
-sudo aptitude install dc python mesa-utils gedit pulseaudio libquadmath0
+sudo apt-get install dc python mesa-utils gedit pulseaudio libquadmath0
 ```
 
 # Informative Tutorial also available at:
